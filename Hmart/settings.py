@@ -109,7 +109,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ecom-rds',
         'USER': 'admin'
-        'PASSWORD':os.getenv("db_password"),
+        'PASSWORD':'tymfugit',
         'HOST':'ecom-rds.c7uo2kw8g6uf.eu-north-1.rds.amazonaws.com'
         'PORT': '3306'
         
